@@ -1,6 +1,6 @@
 ﻿namespace Uell.Web.Reports
 {
-    partial class Uell
+    partial class UellReport
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Uell));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UellReport));
             DevExpress.XtraPrinting.Shape.ShapeRectangle shapeRectangle1 = new DevExpress.XtraPrinting.Shape.ShapeRectangle();
             DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
             DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
@@ -493,7 +493,7 @@
             // objectDataSource1
             // 
             this.objectDataSource1.Constructor = objectConstructorInfo1;
-            this.objectDataSource1.DataSource = typeof(Uell.Web.Reports.ReportDto);
+            this.objectDataSource1.DataSource = typeof(UellReport.Web.Reports.ReportDto);
             this.objectDataSource1.Name = "objectDataSource1";
             // 
             // Uell

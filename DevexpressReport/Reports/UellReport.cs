@@ -6,9 +6,9 @@ using System.Drawing;
 
 namespace Uell.Web.Reports
 {
-    public partial class Uell : DevExpress.XtraReports.UI.XtraReport
+    public partial class UellReport : DevExpress.XtraReports.UI.XtraReport
     {
-        public Uell()
+        public UellReport()
         {
             InitializeComponent();
         }
